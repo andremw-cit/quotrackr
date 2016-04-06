@@ -4,7 +4,7 @@
   "description": "Stock prices fetcher",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "xo"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/andremw/quotrackr/issues"
   },
-  "homepage": "https://github.com/andremw/quotrackr#readme"
+  "homepage": "https://github.com/andremw/quotrackr#readme",
+  "devDependencies": {
+    "xo": "^0.13.0"
+  },
+  "xo": {
+      "esnext": true,
+      "space": 4
+  }
 }
