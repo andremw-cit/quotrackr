@@ -1,3 +1,19 @@
-var i = 2
-i++
-console.log('test')
+'use strict';
+
+module.exports = quotrackr;
+
+function quotrackr() {
+    return {
+        price() {},
+
+        addStock() {},
+
+        removeStock() {},
+
+        deleteList() {},
+
+        prices() {},
+
+        watch() {}
+    };
+}
