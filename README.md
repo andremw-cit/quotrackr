@@ -1,2 +1,2 @@
 # quotrackr
-Stock prices fetcher
+Stock prices fetcher :)
