@@ -1,33 +1,33 @@
 {
   "name": "quotrackr",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Stock prices fetcher",
   "main": "index.js",
   "scripts": {
-      "coverage": "istanbul cover test/**/*.spec.js",
-      "test": "xo && npm run coverage && node test/**/*.spec.js"
+    "coverage": "istanbul cover test/**/*.spec.js",
+    "test": "xo && npm run coverage && node test/**/*.spec.js"
   },
   "repository": {
-        "type": "git",
-        "url": "git+https://github.com/andremw/quotrackr.git"
+    "type": "git",
+    "url": "git+https://github.com/andremw/quotrackr.git"
   },
   "author": "andremw",
   "license": "MIT",
   "bugs": {
-      "url": "https://github.com/andremw/quotrackr/issues"
+    "url": "https://github.com/andremw/quotrackr/issues"
   },
   "homepage": "https://github.com/andremw/quotrackr#readme",
   "devDependencies": {
-        "tap-spec": "^4.1.1",
-        "tape": "^4.5.1",
-        "xo": "^0.13.0"
+    "tap-spec": "^4.1.1",
+    "tape": "^4.5.1",
+    "xo": "^0.13.0"
   },
   "xo": {
-        "esnext": true,
-        "space": 4,
-        "globals": [
-            "describe",
-            "it"
-        ]
+    "esnext": true,
+    "space": 4,
+    "globals": [
+      "describe",
+      "it"
+    ]
   }
 }
