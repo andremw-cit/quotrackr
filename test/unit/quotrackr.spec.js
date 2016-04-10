@@ -10,11 +10,9 @@ test.createStream()
 
 test('quotrackr', t => {
     test('when instantiated', t => {
-        const trackr = quotrackr();
-
         t.test('should return an object', t => {
             const expected = 'object';
-            const actual = typeof trackr;
+            const actual = typeof quotrackr;
 
             t.equal(actual, expected, 'return of quotrackr() is an object');
             t.end();
