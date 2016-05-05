@@ -9,7 +9,7 @@ module.exports = (() => {
          * @return {float} Stock's current price
          */
         price(stock) {
-            return stock;
+            return lblablalablbal
         },
 
         /**
